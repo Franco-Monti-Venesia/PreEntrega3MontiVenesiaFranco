@@ -473,8 +473,8 @@ h3 {
 
 .section__redes {
     display: flex;
-    justify-content: space-between; /* Espacio equitativo entre los elementos */
-    align-items: center; /* Alinear los elementos verticalmente */
+    justify-content: space-between; 
+    align-items: center; 
     background-color: #fff;
     border-radius: 15px;
     padding: 1%;
@@ -534,4 +534,27 @@ h3 {
 .section__img__redes {
     width: 24px;
     margin-right: 5px;
+}
+
+@media (max-width: 480px) {
+    .section__redes {
+        flex-direction: column;
+        align-items: center;
+        padding: 5% 5% 0 5%;
+    }
+
+    .section__div__redes {
+        width: 100%; 
+        margin-bottom: 5%; 
+        justify-content: center; 
+    }
+
+    .section__link__redes {
+        font-size: 0.9rem; 
+    }
+
+    .section__img__redes {
+        width: 20px; 
+        margin-right: 10px;
+    }
 }
