@@ -1,3 +1,7 @@
+$colorTituloPrincipal: #928962;
+$colorTitulosHover :#b8a965;
+
+
 * {
     margin: 0;
     padding: 0;
@@ -42,12 +46,12 @@ header {
     text-decoration: none;
     font-size: 1.3rem;
     padding: 0 0.25rem;
-    color: #928962;
+    color: $colorTituloPrincipal;
     height: 100%;
 }
 
 .nav__link:hover {
-    color: #b8a965;
+    color: $colorTitulosHover;
 }
 
 .header__logo {
@@ -98,7 +102,7 @@ header {
 }
 
 .main__titulo:hover {
-    color: #b8a965;
+    color: $colorTitulosHover;
 }
 
 .div__titulo {
@@ -106,7 +110,7 @@ header {
 }
 
 .div__titulo:hover {
-    color: #b8a965;
+    color: $colorTitulosHover;
 }
 
 .div__parrafo {
@@ -117,11 +121,11 @@ header {
     font-size: 1.2rem;
     text-decoration: none;
     font-weight: 600;
-    color: #928962;
+    color: $colorTituloPrincipal;
 }
 
 .div__parrafo__a:hover {
-    color: #b8a965;
+    color: $colorTitulosHover;
 }
 
 .productos {
@@ -148,7 +152,7 @@ header {
 }
 
 .productos__titulo:hover, .productos__titulo2:hover {
-    color: #b8a965;
+    color: $colorTitulosHover;
 }
 
 .productos__subtitulo {
@@ -197,12 +201,12 @@ header {
     border-radius: 5px;
     border: none;
     cursor: pointer;
-    background-color: #928962;
+    background-color: $colorTituloPrincipal;
     color: white;
 }
 
 .cartas__boton:hover {
-    background-color: #b8a965;
+    background-color: $colorTitulosHover;
 }
 
 @media (max-width: 480px) {
@@ -228,6 +232,9 @@ header {
     .main, .main__ubicacion {
         padding: 25% 9% 10% 9%;
         font-size: 0.9rem;
+        background-size: auto;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 
     .main__titulo {
@@ -307,7 +314,7 @@ header {
 .footer {
     padding: 20px 0;
     text-align: center;
-    background-color: #928962;
+    background-color: $colorTituloPrincipal;
     color: wheat;
 }
 
@@ -353,7 +360,7 @@ h3 {
 }
 
 .section__titulo:hover, .section__titulo__2:hover {
-    color: #b8a965;
+    color: $colorTitulosHover;
 }
 
 .section__parrafo {
@@ -406,7 +413,7 @@ h3 {
 }
 
 .section__titulo2:hover {
-    color: #b8a965;
+    color: $colorTitulosHover;
 }
 
 .section__parrafo2 {
@@ -522,13 +529,13 @@ h3 {
     text-decoration: none;
     display: flex;
     align-items: center;
-    color: #928962;
+    color: $colorTituloPrincipal;
     font-size: 1.1rem;
     font-weight: 500;
 }
 
 .section__link__redes:hover {
-    color: #b8a965;
+    color: $colorTitulosHover;
 }
 
 .section__img__redes {
